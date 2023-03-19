@@ -76,12 +76,12 @@ def Sub():
 
 def main():
     create()
-    # Add()
-    # a = int(input("Enter element to be deleted : "))
-    # Remove(a)
-    # key = int(input("ENter element you want to search : "))
-    # search(key)
-    # size()
+    Add()
+    a = int(input("Enter element to be deleted : "))
+    Remove(a)
+    key = int(input("ENter element you want to search : "))
+    search(key)
+    size()
     Union()
     Ints()
     Symdif()
