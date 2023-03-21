@@ -14,4 +14,6 @@ def doubInsert(hash_table, value, i):
 def main():
     doubInsert(hashTable, 16, 0)
 
+m = int(input("Enter Table Size : "))
 hashTable = [[] for _ in range(m)]
+main()
