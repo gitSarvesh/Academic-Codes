@@ -10,3 +10,8 @@ def doubInsert(hash_table, value, i):
     else:
         i+=1
         doubInsert(hash_table, value, i)
+
+def main():
+    doubInsert(hashTable, 16, 0)
+
+hashTable = [[] for _ in range(m)]
