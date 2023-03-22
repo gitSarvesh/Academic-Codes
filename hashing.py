@@ -18,7 +18,13 @@ def main():
         n = int(input("Enter number of elements to be inserted : "))
         for i in range(n):
             value = int(input("Enter value : "))
-            doubInsert(hash_table, value, 0)
+            doubInsert(hashTable, value, 0)
+    elif(c == 2):
+        display()
+    elif(c == 3):
+        search(hashTable)
+    else:
+        print("Enter valid choice ")
 
 m = int(input("Enter Table Size : "))
 hashTable = [[] for _ in range(m)]
