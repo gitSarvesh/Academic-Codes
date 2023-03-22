@@ -12,7 +12,13 @@ def doubInsert(hash_table, value, i):
         doubInsert(hash_table, value, i)
 
 def main():
-    doubInsert(hashTable, 16, 0)
+    print("1.Insert /n2.Display /n3.Search/n")
+    c = int(input("Enter Choice of Operation : "))
+    if(c == 1):
+        n = int(input("Enter number of elements to be inserted : "))
+        for i in range(n):
+            value = int(input("Enter value : "))
+            doubInsert(hash_table, value, 0)
 
 m = int(input("Enter Table Size : "))
 hashTable = [[] for _ in range(m)]
