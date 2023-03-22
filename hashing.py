@@ -27,6 +27,10 @@ def search(hash_table):
                 if(hash_table[i] == key):
                     print(key, " Found")
                     break
+
+def display():
+    print(hashTable)
+
 def main():
     print("1.Insert /n2.Display /n3.Search/n")
     c = int(input("Enter Choice of Operation : "))
