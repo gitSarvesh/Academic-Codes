@@ -11,6 +11,22 @@ def doubInsert(hash_table, value, i):
         i+=1
         doubInsert(hash_table, value, i)
 
+def search(hash_table):
+    key = int(input("Enter number you want to search : "))
+    if(hash_table[doubHashing(key)] == key):
+        print(key, " Found")
+    else:
+        i = doubHashing(key)+1
+        if(i<m):
+            for i in range(doubHashing(key)+1, m):
+                if(hash_table[i] == key):
+                    print(key, " Found")
+                    break
+        else:
+            for i in range(0, doubHashing(key) + 1):
+                if(hash_table[i] == key):
+                    print(key, " Found")
+                    break
 def main():
     print("1.Insert /n2.Display /n3.Search/n")
     c = int(input("Enter Choice of Operation : "))
