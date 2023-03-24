@@ -32,7 +32,6 @@ def display():
     print(hashTable)
 
 def main():
-    while(choice == 'y'):
         print("1.Insert /n2.Display /n3.Search/n")
         c = int(input("Enter Choice of Operation : "))
         if(c == 1):
