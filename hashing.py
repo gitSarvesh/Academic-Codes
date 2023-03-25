@@ -44,7 +44,7 @@ def main():
         elif(c == 3):
             search(hashTable)
         else:
-            print("Enter valid choice ")
+            print("Enter valid choice!!")
 
 m = int(input("Enter Table Size : "))
 hashTable = [[] for _ in range(m)]
