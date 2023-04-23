@@ -10,3 +10,4 @@ get ready to review
 review on monday
 pbl tommorow
 rreview not yet done
+finally starting ti understand flutters
