@@ -14,3 +14,5 @@ finally starting ti understand flutters
 long time no see
 nice
 looks like i lost a little weight
+a lot actually
+study hard
