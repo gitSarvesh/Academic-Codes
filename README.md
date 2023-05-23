@@ -16,3 +16,5 @@ nice
 looks like i lost a little weight
 a lot actually
 study hard
+actually studying hard
+after a long time on github
